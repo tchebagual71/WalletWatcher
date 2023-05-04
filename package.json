@@ -1,0 +1,18 @@
+{
+  "name": "walletwatcher",
+  "version": "1.0.0",
+  "description": "Sends a message to a channel when a transaction occurs for a specified Eth Wallet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tchebagual71",
+  "license": "ISC",
+  "dependencies": {
+    "alchemy-sdk": "^2.8.1",
+    "discord.js": "^14.9.0",
+    "dotenv": "^16.0.3",
+    "ethers": "^6.3.0",
+    "web3": "^1.9.0"
+  }
+}
